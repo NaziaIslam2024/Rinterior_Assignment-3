@@ -132,7 +132,7 @@
           <div class="hidden md:block"><img src="assets/Vector.png" alt=""></div>
           <div class="md:flex gap-8">
             <!-- text part leftside-->
-            <div class="md:flex-1 md:text-left mb-4 items-center text-center space-y-6 md:space-y-8">
+            <div class="md:flex-1 md:text-left mb-4 lg:mt-7 items-center text-center space-y-6 md:space-y-8">
               <div class="btn bg-rinterior-body-light rounded-3xl">
                 <svg 
                 xmlns="http://www.w3.org/2000/svg" 
@@ -243,7 +243,7 @@
 
       <!-- explore-our-latest-work section starts-->
       <section>
-        <div class="container mx-auto px-5 pt-10 space-y-4 text-center">
+        <div class="container mx-auto px-5 pt-10 space-y-4 text-center pb-4 lg:pb-20">
           <div class="btn bg-rinterior-primary-light rounded-3xl">
             <svg 
             xmlns="http://www.w3.org/2000/svg" 
@@ -262,24 +262,90 @@
           <h1 class="text-2xl font-bold lg:text-4xl">Let’s Discuss Next Project</h1>
           <p class=" text-sm font-medium text-stone-600 lg:text-[16px]">The barn house captivates with its blend of rustic charm and  modern sophistication, featuring weathered wood, sleek metal accents.</p>
           <!-- card container -->
-          <div>
+          <div class="grid gap-4 md:grid-cols-2 md:col-span-3 lg:grid-cols-3 lg:w-full">
             <!-- card 1 -->
-            <div class="card bg-base-100 w-96 shadow-xl">
-              <figure class="px-10 pt-10">
+            <div class="card bg-base-100 shadow-xl md:flex md:flex-row lg:col-span-2">
+              <figure class="px-5 pt-5 lg:pb-5">
                 <img
-                  src=""
-                  alt="Shoes"
-                  class="rounded-xl" />
+                  src="assets/img1.png"
+                  alt="card-1"
+                  class="h-44 w-full rounded-xl lg:h-full" />
               </figure>
-              <div class="card-body items-center text-center">
-                <h2 class="card-title">Shoes!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-body items-left text-left lg:pl-5 lg:basis-1/2">
+                <h2 class="card-title">Commercial</h2>
+                <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
                 <div class="card-actions">
-                  <button class="btn btn-primary">Buy Now</button>
+                  <a class="flex gap-2 items-center rounded-3xl font-extrabold">View Details
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="bg-rinterior-primary rounded-full size-6 p-1">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                    </svg>
+                  </a>
+                  <!-- <button class="btn btn-primary">Buy Now</button> -->
                 </div>
               </div>
             </div>
+
+            <!-- card 2 -->
+            <div class="card bg-base-100 shadow-xl">
+              <figure class="px-5 py-5">
+                <img
+                  src="assets/img2.png"
+                  alt="card-1"
+                  class="h-48 rounded-xl w-full lg:h-full" />
+              </figure>
+            </div>
+
+            <div class="grid gap-4 md:grid-cols-2 md:col-span-3 lg:grid-cols-4 lg:w-full">
+              <!-- card 3 -->
+              <div class="card bg-base-100 shadow-xl">
+                <figure class="px-5 py-5">
+                  <img
+                    src="assets/img3.png"
+                    alt="card-1"
+                    class="h-48 rounded-xl w-full lg:h-full" />
+                </figure>
+              </div>
+
+              <!-- card 4 -->
+              <div class="card bg-base-100 shadow-xl md:flex md:flex-row lg:col-span-2">
+                <figure class="px-5 pt-5 lg:pb-5">
+                  <img
+                    src="assets/img1.png"
+                    alt="card-1"
+                    class="h-44 w-full rounded-xl lg:h-full" />
+                </figure>
+                <div class="card-body items-left text-left lg:pl-5 lg:basis-1/2">
+                  <h2 class="card-title">Commercial</h2>
+                  <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                  <div class="card-actions">
+                    <a class="flex gap-2 items-center rounded-3xl font-extrabold">View Details
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="bg-rinterior-primary rounded-full size-6 p-1">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- card 5 -->
+              <div class="card bg-base-100 shadow-xl">
+                <figure class="px-5 py-5">
+                  <img
+                    src="assets/img3.png"
+                    alt="card-1"
+                    class="h-48 rounded-xl w-full lg:h-full" />
+                </figure>
+              </div>
           </div>
+          <!-- card 6 -->
+          <div class="card bg-base-100 shadow-xl lg:hidden">
+            <figure class="px-5 py-5">
+              <img
+                src="assets/img3.png"
+                alt="card-1"
+                class="h-48 rounded-xl w-full lg:h-full" />
+            </figure>
+          </div>
+          </div>         
         </div>
       </section>
 
